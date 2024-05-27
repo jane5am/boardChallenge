@@ -21,4 +21,11 @@ public class Board {
         this.contents = requestDto.getContents();
         this.regdate = requestDto.getRegdate();
     }
+
+    public void update(BoardRequestDto requestDto) {
+        this.writer = requestDto.getWriter();
+        this.title = requestDto.getTitle();
+        this.contents = requestDto.getContents();
+        this.regdate = requestDto.getRegdate();
+    }
 }

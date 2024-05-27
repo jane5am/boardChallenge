@@ -18,4 +18,12 @@ public class BoardResponseDto {
         this.contents = board.getContents();
         this.regdate = board.getRegdate();
     }
+
+    public BoardResponseDto(Long boardId, String writer, String title, String contents, String regdate) {
+        this.board_id = boardId;
+        this.writer = writer;
+        this.title = title;
+        this.contents = contents;
+        this.regdate = regdate;
+    }
 }
