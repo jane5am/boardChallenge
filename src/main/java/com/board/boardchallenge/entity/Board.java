@@ -28,4 +28,5 @@ public class Board {
         this.contents = requestDto.getContents();
         this.regdate = requestDto.getRegdate();
     }
+
 }
